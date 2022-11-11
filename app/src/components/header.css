@@ -1,0 +1,41 @@
+.bg-size1 {
+    background-size: 24px;
+    background-position: left 14px center;
+}
+.hamburger-line {
+    height: 2px;
+    width: 18px;
+    background: rgb(0, 0, 0);
+    border-radius: 80px;
+    will-change: transform;
+    transition: all 0.2s ease-in-out 0s;
+}
+.hamburger-line:nth-child(2) {
+    margin: 3px 0px;
+}
+.menu ul {
+    color: #fff;
+    
+}
+.menu ul li {
+    font-weight: 400;
+    height: 70px;
+    display: flex;
+    
+    align-items: center;
+}
+.menu ul li a {
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    padding: 0px 14px 0px 14px;
+}
+.top-s {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.top-s span {
+    border-right:  2px solid #d0d5dd;
+    padding-right: 20px;
+    font-size: 14px;
+}
